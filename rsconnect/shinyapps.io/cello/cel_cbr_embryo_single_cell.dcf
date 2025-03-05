@@ -1,0 +1,12 @@
+name: cel_cbr_embryo_single_cell
+title: exp_vis
+username: cello
+account: cello
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14107035
+bundleId: 9891425
+url: https://cello.shinyapps.io/cel_cbr_embryo_single_cell/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

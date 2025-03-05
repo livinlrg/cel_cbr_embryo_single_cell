@@ -1,0 +1,55 @@
+/* www/styles.css */
+
+.text-card {
+    background-color: red; /* Light Khaki */
+    color: #fff; /* Text color */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.circle_value_col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 50%;
+    color: #000;
+    font-size: 1.35rem;
+    letter-spacing: -1px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Reduce flex overhead */
+.reactable .cell {
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header:hover,
+.header[aria-sort="ascending"],
+.header[aria-sort="descending"] {
+  background-color: #eee;
+}
+
+.border-left {
+border-left: 2px solid #555;
+}
+
+.border-right {
+border-right: 2px solid #555;
+}
+
+.reactable-data tr:first-child td {
+border-top: 2px solid #555;
+}
+
+.reactable thead th {
+border-bottom: 2px solid #444;
+}
